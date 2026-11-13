@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>7.3</LangVersion>
+    <RootNamespace>Bai6_7_PhongKham</RootNamespace>
+    <AssemblyName>Bai6_7_PhongKham</AssemblyName>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+  <!-- Script khoi tao CSDL duoc nhung vao file .exe, doc luc chay bang EmbeddedResource -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\Database\ScriptDB_PhongKham.sql">
+      <LogicalName>Bai6_7_PhongKham.ScriptDB.sql</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
