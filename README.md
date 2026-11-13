@@ -11,20 +11,6 @@
 
 ## II. HÌNH ẢNH KẾT QUẢ CÁC MÀN HÌNH CHỨC NĂNG
 
-# Bộ 3 bài tập .NET — Thư viện · Phòng khám · Bàn bida
-
-Ba chương trình WinForms minh hoạ **kiến trúc 3 lớp (GUI – BUS – DAL)** và **ADO.NET**
-thuần (không dùng Entity Framework), mỗi bài có cơ sở dữ liệu riêng và **tự khởi tạo
-cơ sở dữ liệu ngay khi chạy lần đầu**:
-
-| Bài | Đề tài | Cơ sở dữ liệu | Chức năng chính |
-|-----|--------|---------------|-----------------|
-| 6.6 | Hệ thống quản lý mượn trả sách thư viện | `LibraryDB` | Độc giả, đầu sách, lập/trả phiếu mượn, cảnh báo quá hạn, thống kê |
-| 6.7 | Hệ thống quản lý phòng khám & kê đơn thuốc | `ClinicDB` | Tiếp nhận bệnh nhân, hồ sơ khám, danh mục thuốc, kê đơn, thanh toán |
-| 6.8 | Hệ thống quản lý bàn bida & dịch vụ giải trí | `BilliardsDB` | Sơ đồ bàn, gọi dịch vụ, tính giờ, thanh toán, doanh thu |
-
-
-
 
 ## Bài 6.6 — Hệ thống quản lý mượn trả sách thư viện
 
